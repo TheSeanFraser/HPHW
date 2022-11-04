@@ -1,13 +1,14 @@
 var today = new Date();
 console.log(today);
 
-let speciesList = [ "Turkey Vulture","Osprey","Bald Eagle",
+let speciesList = ["Turkey Vulture","Osprey","Bald Eagle",
 "Northern Harrier","Sharp-shinned Hawk","Cooper's Hawk",
 "Northern Goshawk","Red-shouldered Hawk","Broad-winged Hawk",
 "Red-tailed Hawk","Rough-legged Hawk","Golden Eagle",
 "American Kestrel","Merlin","Peregrine Falcon"];
 
-let weekList = [];
+let weekList = ["9/1", "9/8", "9/15", "9/22", "10/1", "10/8", "10/15",
+"10/22", "11/1", "11/8", "11/15", "11/22"];
 
 let birdsPerHourData = [
 	[1, 1, 1, 1, 2, 1, 0, 0, 8, 1, 0, 0, 1, 0.5, 0.3],
