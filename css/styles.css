@@ -3,9 +3,3 @@ body{
 	max-width: 700px;
   
 }
-
-ul {
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
-}
