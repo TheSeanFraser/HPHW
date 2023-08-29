@@ -1,5 +1,5 @@
 var today = new Date();
-var weekIndex = 1;
+var weekIndex = 500;
 const bphListEl = document.getElementById("bphList");
 const bphTextEl = document.getElementById("bphText");
 
