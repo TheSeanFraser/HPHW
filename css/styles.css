@@ -4,10 +4,51 @@ body{
   
 }
 
+html, body {
+/*    height: 100%;*/
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 table {
   border-collapse: collapse;
 }
 
 table, th, td {
   border: 1px solid;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 700px;
+/*  font-size: 30px;*/
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: orange;
+  color: white;
+}
+
+footer {
+  color: gray;
+}
+
+html {
+    font-size: calc(20px + 0.390625vw);
 }
