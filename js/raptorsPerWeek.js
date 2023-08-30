@@ -14,7 +14,7 @@ let weekList = ["9/1", "9/8", "9/15", "9/22", "10/1", "10/8", "10/15",
 
 
 let birdsPerHourData = [
-	[0, 0.4, 0.1, 0.5, 0.04, 1.4, 0.3, 0, 0.01, 1.8, 0.6, 0.01, 0, 0.2, 0.05, 0.04, 5.68]
+	[0, 0.4, 0.1, 0.5, 0.04, 1.4, 0.3, 0, 0.01, 1.8, 0.6, 0.01, 0, 0.2, 0.05, 0.04, 5.68],
 	[0, 0.4, 0.2, 0.4, 0.2, 4.1, 0.3, 0, 0, 32, 1, 0.03, 0, 1.2, 0.1, 0.1, 39.96],
 	[0, 2.2, 0.2, 0.4, 0.2, 7, 0.5, 0, 1.2, 22, 0.6, 0.01, 0, 1.8, 0.1, 0.1, 35.88],
 	[0, 13, 0.1, 0.4, 0.4, 8, 0.3, 0, 0.1, 17, 1, 0.01, 0, 1.3, 0.1, 0.1, 41.74],
@@ -75,6 +75,7 @@ if(weekIndex == 500){
 	bphTextEl.innerHTML = "Based on HMANA's Hawk Count data, here are the average number of each species you might see per hour this week:";
 	bphListEl.innerHTML = "";
 	data = [];
+
 	for(i = 0; i < birdsPerHourData[weekIndex].length; i++){
 		curBird = {'species':speciesList[i], 'bph':birdsPerHourData[weekIndex][i]};
 		if(birdsPerHourData[weekIndex][i] != 0){
