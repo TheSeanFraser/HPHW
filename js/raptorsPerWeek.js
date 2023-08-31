@@ -72,7 +72,7 @@ if(weekIndex == 500){
 	bphListEl.innerHTML = "";
 } else {
 	// In hawk watching season, update week's birds per hour
-	bphTextEl.innerHTML = "Based on HMANA's Hawk Count data, here are the average number of each species you might see per hour this week:";
+	bphTextEl.innerHTML = "Based on HMANA's Hawk Count data, listed below are the average number of each species you might see per hour this week. Keep in mind, these averages include days with poor migrating conditions and off-peak hours.";
 	bphListEl.innerHTML = "";
 	data = [];
 
