@@ -28,9 +28,11 @@ let birdsPerHourData = [
 	[0, 0, 0, 0.01, 0.01, 0.04, 0.04, 0.01, 0.05, 0.01, 0.46, 0.01, 0, 0, 0.01, 0.01, 0.70]
 ];
 
+console.log(today.getMonth());
+console.log(today.getDate());
 
 // Check if month is September
-if ( today.getMonth == 8){
+if ( today.getMonth() == 8){
 	if (today.getDate() < 8){
 		weekIndex = 0;
 	} else if (today.getDate() < 15){
@@ -64,6 +66,7 @@ if ( today.getMonth == 8){
 		weekIndex = 11;
 	}
 }
+console.log(weekIndex);
 
 
 if(weekIndex == 500){
